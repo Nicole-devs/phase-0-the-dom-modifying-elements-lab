@@ -12,8 +12,7 @@ document.body.appendChild(victory);
 // h1.innerHTML = 'NICOLE is the champion'
 
 var newHeader = document.createElement('H1');
+newHeader.id = 'victory';
+newHeader.innerHTML = 'NICOLE is the champion';
 document.body.appendChild(victory);
 
-document.getElementById("H1");
-newHeader.innerHTML = 
-'<h1>Nicole!</h1> <p> is the champion/p>'
